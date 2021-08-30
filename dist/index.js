@@ -1328,7 +1328,7 @@ function buildCommentBody(deploymentCommit, deploymentUrl, deploymentName) {
       ${joinDeploymentUrls(deploymentUrl, aliasDomains)}
       
       Built with commit ${deploymentCommit}.
-      This pull request is being automatically deployed with [vercel-action](https://github.com/marketplace/actions/vercel-action)
+      This pull request is being automatically deployed.
     `
   );
 }
