@@ -111,8 +111,6 @@ async function vercelDeploy(ref, commit) {
     '-m',
     `githubCommitAuthorLogin=${context.actor}`,
     '-m',
-    'githubDeployment=1',
-    '-m',
     `githubOrg=${context.repo.owner}`,
     '-m',
     `githubRepo=${context.repo.repo}`,
